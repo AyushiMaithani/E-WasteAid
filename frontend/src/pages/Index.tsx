@@ -45,7 +45,7 @@ const Index = () => {
       <section className="py-20 bg-eco-green-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-eco-green-800 mb-4">How GreenCycle Works</h2>
+            <h2 className="text-3xl font-bold text-eco-green-800 mb-4">How E-WasteAid Works</h2>
             <p className="text-lg text-eco-green-600 max-w-3xl mx-auto">
               Our platform connects consumers, collection centers, transporters, and recycling facilities 
               to ensure e-waste is handled responsibly.
@@ -102,7 +102,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-eco-green-800 mb-4">Choose Your Role</h2>
             <p className="text-lg text-eco-green-600 max-w-3xl mx-auto">
-              GreenCycle serves different stakeholders in the e-waste management ecosystem.
+              E-WasteAid serves different stakeholders in the e-waste management ecosystem.
               Register as one of the following:
             </p>
           </div>
@@ -241,7 +241,7 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Environmental Impact</h2>
             <p className="text-lg text-eco-green-100 max-w-3xl mx-auto">
-              By using GreenCycle, you're contributing to a significant reduction in environmental damage caused by improper e-waste disposal.
+              By using E-WasteAid, you're contributing to a significant reduction in environmental damage caused by improper e-waste disposal.
             </p>
           </div>
 
@@ -283,7 +283,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-eco-green-800 mb-4">Ready to Make a Difference?</h2>
           <p className="text-lg text-eco-green-600 max-w-3xl mx-auto mb-8">
-            Join GreenCycle today and be part of the solution to the growing e-waste problem. 
+            Join E-WasteAid today and be part of the solution to the growing e-waste problem. 
             Together, we can create a more sustainable future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

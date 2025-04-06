@@ -8,7 +8,7 @@ const About = () => {
     <MainLayout>
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-eco-green-700 mb-4">About GreenCycle</h1>
+          <h1 className="text-4xl font-bold text-eco-green-700 mb-4">About E-WasteAid</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're on a mission to make e-waste recycling accessible, convenient, and rewarding for everyone.
           </p>
@@ -18,10 +18,10 @@ const About = () => {
           <div>
             <h2 className="text-2xl font-bold text-eco-green-600 mb-4">Our Story</h2>
             <p className="text-gray-700 mb-4">
-              GreenCycle was founded in 2023 with a simple vision: to create a world where electronic waste is properly managed, recycled, and given new life. What started as a small community initiative has grown into a comprehensive platform connecting consumers, drivers, collectors, and recycling centers.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quaerat quidem ad maiores cupiditate sint aspernatur consectetur dolorum ullam sed! Natus, sint id!
             </p>
             <p className="text-gray-700">
-              Today, we're proud to be at the forefront of the e-waste management revolution, using technology and community engagement to solve one of our generation's most pressing environmental challenges.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cumque iusto nostrum repellendus assumenda. Deleniti, sed nemo eius nostrum ipsa corporis quisquam dicta reprehenderit, harum expedita atque quis voluptate quaerat ratione ex. Facilis sapiente fugit doloribus, similique cumque quod illum?
             </p>
           </div>
           <div className="bg-eco-green-50 rounded-lg p-6">
@@ -110,18 +110,15 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="bg-gray-200 h-48 rounded-lg mb-4"></div>
-              <h3 className="text-xl font-semibold">Alex Johnson</h3>
-              <p className="text-eco-green-600">Co-founder & CEO</p>
+              <h3 className="text-xl font-semibold">Ayushi Maithani</h3>
             </div>
             <div className="text-center">
               <div className="bg-gray-200 h-48 rounded-lg mb-4"></div>
-              <h3 className="text-xl font-semibold">Morgan Zhang</h3>
-              <p className="text-eco-green-600">Co-founder & CTO</p>
+              <h3 className="text-xl font-semibold">Tanvi Dhamanda</h3>
             </div>
             <div className="text-center">
               <div className="bg-gray-200 h-48 rounded-lg mb-4"></div>
-              <h3 className="text-xl font-semibold">Priya Sharma</h3>
-              <p className="text-eco-green-600">Head of Operations</p>
+              <h3 className="text-xl font-semibold">Chandrika Joshi </h3>
             </div>
           </div>
         </div>

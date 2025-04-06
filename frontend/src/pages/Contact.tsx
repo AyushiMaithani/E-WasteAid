@@ -132,7 +132,7 @@ const Contact = () => {
                     <p className="text-gray-600">
                       123 Recycling Way<br />
                       Green City, EC0 123<br />
-                      United States
+                      India
                     </p>
                   </div>
                 </CardContent>
@@ -144,9 +144,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      Customer Support: (123) 456-7890<br />
-                      Pickup Scheduling: (123) 456-7891<br />
-                      Business Inquiries: (123) 456-7892
+                      Customer Support: +91 4566547890<br />
+                      Pickup Scheduling: +91 4565437891<br />
+                      Business Inquiries: +91 4561237892
                     </p>
                   </div>
                 </CardContent>
@@ -158,9 +158,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
                     <p className="text-gray-600">
-                      General Inquiries: info@greencycle.com<br />
-                      Support: support@greencycle.com<br />
-                      Business Relations: business@greencycle.com
+                      General Inquiries: info@ewasteaid.com<br />
+                      Support: support@ewasteaid.com<br />
+                      Business Relations: business@ewasteaid.com
                     </p>
                   </div>
                 </CardContent>
@@ -172,8 +172,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Customer Support Hours</h3>
                     <p className="text-gray-600">
-                      Monday - Friday: 8:00 AM - 8:00 PM EST<br />
-                      Saturday: 9:00 AM - 5:00 PM EST<br />
+                      Monday - Friday: 8:00 AM - 8:00 PM IST<br />
+                      Saturday: 9:00 AM - 5:00 PM IST<br />
                       Sunday: Closed
                     </p>
                   </div>
