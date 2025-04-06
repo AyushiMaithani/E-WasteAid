@@ -1,0 +1,119 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 100 47% 98%;
+    --foreground: 142 52% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 142 52% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 142 52% 15%;
+
+    /* Green primary color */
+    --primary: 142 74% 46%;
+    --primary-foreground: 144 100% 98%;
+
+    --secondary: 100 50% 94%;
+    --secondary-foreground: 142 52% 25%;
+
+    --muted: 100 50% 94%;
+    --muted-foreground: 142 20% 40%;
+
+    --accent: 85 60% 95%;
+    --accent-foreground: 142 52% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 142 10% 86%;
+    --input: 142 10% 86%;
+    --ring: 142 74% 46%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 142 40% 20%;
+    --sidebar-foreground: 100 50% 94%;
+    --sidebar-primary: 142 74% 46%;
+    --sidebar-primary-foreground: 144 100% 98%;
+    --sidebar-accent: 142 30% 30%;
+    --sidebar-accent-foreground: 100 50% 94%;
+    --sidebar-border: 142 30% 30%;
+    --sidebar-ring: 142 74% 46%;
+  }
+
+  .dark {
+    --background: 142 40% 15%;
+    --foreground: 100 50% 94%;
+
+    --card: 142 40% 18%;
+    --card-foreground: 100 50% 94%;
+
+    --popover: 142 40% 18%;
+    --popover-foreground: 100 50% 94%;
+
+    --primary: 142 70% 46%;
+    --primary-foreground: 144 100% 98%;
+
+    --secondary: 142 30% 30%;
+    --secondary-foreground: 100 50% 94%;
+
+    --muted: 142 30% 30%;
+    --muted-foreground: 142 20% 75%;
+
+    --accent: 142 30% 30%;
+    --accent-foreground: 100 50% 94%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 142 30% 30%;
+    --input: 142 30% 30%;
+    --ring: 142 70% 46%;
+
+    --sidebar-background: 142 40% 15%;
+    --sidebar-foreground: 100 50% 94%;
+    --sidebar-primary: 142 70% 46%;
+    --sidebar-primary-foreground: 144 100% 98%;
+    --sidebar-accent: 142 30% 30%;
+    --sidebar-accent-foreground: 100 50% 94%;
+    --sidebar-border: 142 30% 30%;
+    --sidebar-ring: 142 70% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .eco-gradient {
+    @apply bg-gradient-to-r from-eco-green-600 to-eco-green-400;
+  }
+  
+  .eco-card {
+    @apply border border-eco-green-100 bg-white/50 backdrop-blur-sm shadow-sm hover:shadow-md transition-all;
+  }
+  
+  .eco-button {
+    @apply bg-eco-green-500 hover:bg-eco-green-600 text-white px-4 py-2 rounded-md transition-colors;
+  }
+}
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
